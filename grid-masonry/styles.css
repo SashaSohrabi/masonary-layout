@@ -1,0 +1,32 @@
+.masonry {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    grid-auto-rows: 200px;
+}
+
+.masonry-brick-1 {
+    grid-row-end: span 1;
+}
+
+.masonry-brick-2 {
+    grid-row-end: span 1;
+}
+
+.masonry-brick-3 {
+    grid-row-end: span 2;
+}
+
+/* Non-grid specific CSS */
+body {
+    margin: 10px;
+    background-color: #ffffff;
+}
+
+.item {
+    background-color: #ffffff;
+}
+
+.photothumb{
+    width: 100%;
+}

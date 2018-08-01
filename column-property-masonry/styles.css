@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background: #333333;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.masonry {
+    margin: 10px 0;
+    padding: 0;
+    max-width: 98%;
+    column-gap: 10px;
+}
+
+.masonry-brick {
+    display: inline-block;
+    margin: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width: 700px) {
+    .masonry {
+        column-count: 2;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .masonry {
+        column-count: 3;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .masonry {
+        column-count: 4;
+    }
+}
