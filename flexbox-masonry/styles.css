@@ -20,15 +20,12 @@ img {
 .masonry--h,
 .masonry--v {
     margin-left: -8px; /* Adjustment for the gutter */
-    counter-reset: brick;
 }
 
 .masonry-brick {
     overflow: hidden;
     border-radius: 5px;
     margin: 0 0 8px 8px; /* Some Gutter */
-    background-color: #333;
-    color: white;
     position: relative;
 }
 
