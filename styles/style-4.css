@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #333333;
+}
+
+.masonry {
+    display: block;
+    position: relative;
+    margin-left: 10px;
+}
+
+.masonry-brick {
+    display:inline-block;
+    float: left;
+    margin: 10px;
+    height: 30%;
+}
+
+.masonry-brick img {
+    width: 420px;
+}

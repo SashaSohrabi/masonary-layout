@@ -9,10 +9,12 @@
     <style>
         body {
             width: 1000px;
-            margin: 0 auto;
+            margin: 10% auto;
             background: #333333;
             color: #ffffff;
-            text-align: center;
+            font-size: 30px;
+            text-align: left;
+
         }
 
         ul {
@@ -21,17 +23,35 @@
 
         a {
             text-decoration: none;
-            color: rebeccapurple;
+            color: #ffffff;
+            font-size: 30px;
         }
+
+        img {
+            width: 30%;
+            height: 20%;
+            box-shadow: 3px 3px 5px #666666;
+        }
+
+        .wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+
     </style>
 </head>
 <body>
-<h2>Masonry Layout</h2>
-<ul>
-    <li><a href="column-property-masonry.html">→ Masonry photo layout via column property</a></li>
-    <li><a href="flexbox-masonry.html">→ Masonry photo layout via flex</a></li>
-    <li><a href="grid-masonry.html">→ Masonry photo layout via grid</a></li>
-</ul>
-<img src="./images/giphy.gif" alt="">
+<div class="wrapper">
+    <div>
+        <h2>Masonry Layout</h2>
+        <ul>
+            <li><a href="column-property-masonry.html">→ Masonry photo layout via column property</a></li>
+            <li><a href="flexbox-masonry.html">→ Masonry photo layout via flex</a></li>
+            <li><a href="grid-masonry.html">→ Masonry photo layout via grid</a></li>
+            <li><a href="float-masonry.html">→ Masonry photo layout via float</a></li>
+        </ul>
+    </div>
+    <img src="./images/giphy.gif" alt="">
+</div>
 </body>
 </html>

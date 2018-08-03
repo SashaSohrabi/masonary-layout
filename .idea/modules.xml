@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/masonary-layout.iml" filepath="$PROJECT_DIR$/.idea/masonary-layout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/masonry-layout.iml" filepath="$PROJECT_DIR$/.idea/masonry-layout.iml" />
     </modules>
   </component>
 </project>
